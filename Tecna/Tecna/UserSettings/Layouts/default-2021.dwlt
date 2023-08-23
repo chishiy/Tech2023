@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1206
     height: 665.3333
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 82
+  controlID: 48
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,10 +220,10 @@ MonoBehaviour:
     y: 0
     width: 921.3333
     height: 665.3333
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 83
+  controlID: 49
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,10 +245,10 @@ MonoBehaviour:
     y: 0
     width: 921.3333
     height: 394.66666
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 84
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c770000
-    m_LastClickedID: 30620
-    m_ExpandedIDs: 000000009c77000000ca9a3bffffff7f
+    m_SelectedIDs: 247b0000
+    m_LastClickedID: 31524
+    m_ExpandedIDs: 000000009c770000707a0000027b0000047b00001c7b0000327b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -491,9 +491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 287b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 58daffff
+      m_ExpandedIDs: 76d3ffffc6d3ffff16d4ffff6ad4ffff58daffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -537,8 +537,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 531.3334
-    y: 253.33334
+    x: -21105.334
+    y: -21303.334
     width: 691.3333
     height: 373.66666
   m_ViewDataDictionary: {fileID: 0}
@@ -776,9 +776,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3301797, y: 2.4587352, z: -0.39075422}
+    m_Target: {x: 1.2147864, y: 3.0203123, z: 1.2173636}
     speed: 2
-    m_Value: {x: -1.3301797, y: 2.4587352, z: -0.39075422}
+    m_Value: {x: 1.2147864, y: 3.0203123, z: 1.2173636}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,13 +825,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.0045683975, y: 0.96817756, z: -0.2495996, w: 0.01772055}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.004942785, y: 0.96814865, z: -0.24959214, w: 0.019172773}
   m_Size:
-    m_Target: 9.899159
+    m_Target: 2.3656054
     speed: 2
-    m_Value: 9.472879
+    m_Value: 2.4770737
   m_Ortho:
     m_Target: 0
     speed: 2
