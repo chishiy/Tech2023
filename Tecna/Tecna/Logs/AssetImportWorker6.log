@@ -15,7 +15,7 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-56040
+49364
 Successfully changed project path to: C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2596] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 3937841284 [EditorId] 3937841284 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22292] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1981105936 [EditorId] 1981105936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2596] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 3937841284 [EditorId] 3937841284 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22292] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1981105936 [EditorId] 1981105936 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 59.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,321 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003274 seconds.
+Registered in 0.003812 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.480 seconds
+- Completed reload, in  0.470 seconds
 Domain Reload Profiling:
-	ReloadAssembly (480ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (470ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (341ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (327ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (203ms)
+			SetupLoadedEditorAssemblies (191ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
+				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003985 seconds.
+Registered in 0.004079 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.754 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (592ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (268ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (56.4 KB). Loaded Objects now: 3608.
-Memory consumption went from 110.5 MB to 110.5 MB.
-Total: 3.171700 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.210500 ms MarkObjects: 2.609800 ms  DeleteObjects: 0.070700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2134.936075 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/MetalTable.prefab
-  artifactKey: Guid(f629bccf184c1854ba1d281372c9e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/MetalTable.prefab using Guid(f629bccf184c1854ba1d281372c9e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df49d7741c1b92747eb8683aa9d2681') in 0.117264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 755.147695 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard
-  artifactKey: Guid(dba292c053d16ca4abc6ee09556f0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard using Guid(dba292c053d16ca4abc6ee09556f0c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec8356c125a47248753afb53afb67ce') in 0.003946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.936435 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/New Folder
-  artifactKey: Guid(d62a7eb466c03cb46a92307007d80baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/New Folder using Guid(d62a7eb466c03cb46a92307007d80baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c8d05e6a1b070881d5e8538c3a7d73') in 0.004394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.344491 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images
-  artifactKey: Guid(d62a7eb466c03cb46a92307007d80baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images using Guid(d62a7eb466c03cb46a92307007d80baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aef7bea1491c51657cef1bafe1315f5') in 0.003944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 724.894358 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/1.jpg
-  artifactKey: Guid(57d15bc29faebfc4b9d5f3e831e46e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/1.jpg using Guid(57d15bc29faebfc4b9d5f3e831e46e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74878f9fb1dd50a0f744a304169811a') in 0.039646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005395 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg
-  artifactKey: Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg using Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fe9fc31911efddfd7687a5d312cea8') in 0.027244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/6.jpg
-  artifactKey: Guid(703e1e6f05f946e4aad313878954e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/6.jpg using Guid(703e1e6f05f946e4aad313878954e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c008efe2574320504f06cc65436c4d') in 0.041947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif
-  artifactKey: Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif using Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d533d373d28056874762d4d6bffdb28') in 0.021857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.694172 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/3.jpg
-  artifactKey: Guid(f71398a4a1f84cf4494001962abe6956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/3.jpg using Guid(f71398a4a1f84cf4494001962abe6956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9beb11bb8c687c2876e8f8f68be2c15') in 0.104011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.798358 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg
-  artifactKey: Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg using Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c005fd9fa5073180e309d12e5fca52a') in 0.052112 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004228 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Domain Reload Profiling:
-	ReloadAssembly (768ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (248ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3626.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 3.059400 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.198600 ms MarkObjects: 2.531000 ms  DeleteObjects: 0.029300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005057 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
-Domain Reload Profiling:
-	ReloadAssembly (796ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (602ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3630.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 3.012900 ms (FindLiveObjects: 0.254400 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.545800 ms  DeleteObjects: 0.029000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005637 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Domain Reload Profiling:
-	ReloadAssembly (759ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (575ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (245ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadAttributes (175ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.7 KB). Loaded Objects now: 3634.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 2.787700 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.399400 ms  DeleteObjects: 0.022700 ms)
+Unloading 3145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (56.1 KB). Loaded Objects now: 3610.
+Memory consumption went from 110.9 MB to 110.9 MB.
+Total: 3.206800 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.132700 ms MarkObjects: 2.718900 ms  DeleteObjects: 0.070800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -394,174 +163,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003862 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
-Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.7 KB). Loaded Objects now: 3638.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 3.164500 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.217600 ms MarkObjects: 2.671400 ms  DeleteObjects: 0.023900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003671 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Domain Reload Profiling:
-	ReloadAssembly (757ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (569ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3642.
-Memory consumption went from 114.5 MB to 114.4 MB.
-Total: 3.159000 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.189300 ms MarkObjects: 2.664700 ms  DeleteObjects: 0.025700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1650.029049 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif
-  artifactKey: Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif using Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f554941ab12ab95a231416a47b58e52') in 0.065169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 108.556956 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Wall.mat
-  artifactKey: Guid(d0ab8927334c9e940b27b0c9fb597f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Wall.mat using Guid(d0ab8927334c9e940b27b0c9fb597f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663514eda7ee00de3c2283cbfaf098e7') in 0.101463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 201.515506 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_AO.png
-  artifactKey: Guid(3cda1ecbcca257541aa7b8c923371d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_AO.png using Guid(3cda1ecbcca257541aa7b8c923371d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a63e8d27b4fe3629a8041fa8a577385') in 0.011832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039050 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_BaseColor.png
-  artifactKey: Guid(c1728c24f7ba2b247ac6a073c0d2aa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_BaseColor.png using Guid(c1728c24f7ba2b247ac6a073c0d2aa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d078091ad134b79831a004cfd627d8f') in 0.007591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_Roughness.png
-  artifactKey: Guid(ae946ef2f70a35646980f940001e13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_Roughness.png using Guid(ae946ef2f70a35646980f940001e13f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5b775bad93881fc7898c93ec16b866') in 0.010482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_AO.png
-  artifactKey: Guid(f94c9c9d1cd0f274e815fc5fea6f4cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_AO.png using Guid(f94c9c9d1cd0f274e815fc5fea6f4cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef3b738abfe6ed84588e0ca402fcf4b') in 0.010209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_Height.png
-  artifactKey: Guid(e55ee08e84f820a44b9ec12a5404c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_Height.png using Guid(e55ee08e84f820a44b9ec12a5404c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ebb72ed543fdc56d45479c16d4c105') in 0.008700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_Metallic.png
-  artifactKey: Guid(1284eb2561fb46540a9ac6622903aa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_tabletop_Metallic.png using Guid(1284eb2561fb46540a9ac6622903aa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55205b3f461006d4bd61e3957994d872') in 0.009783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_Height.png
-  artifactKey: Guid(c734be953651fda49979b4e77121361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/stol/source/M_Table/T_table_2_frame_Height.png using Guid(c734be953651fda49979b4e77121361b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce9116806f63e6fc4a9951f92f057e2') in 0.007374 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

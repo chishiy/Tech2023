@@ -15,7 +15,7 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50257
+56040
 Successfully changed project path to: C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16744] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 186188220 [EditorId] 186188220 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21120] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1561853726 [EditorId] 1561853726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16744] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 186188220 [EditorId] 186188220 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21120] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1561853726 [EditorId] 1561853726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 54.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,90 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003271 seconds.
+Registered in 0.007625 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.515 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (515ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (378ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (82ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (205ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004299 seconds.
+Registered in 0.004245 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
+- Completed reload, in  0.785 seconds
 Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (272ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
+				BeforeProcessingInitializeOnLoad (60ms)
 				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (56.5 KB). Loaded Objects now: 3609.
-Memory consumption went from 110.5 MB to 110.5 MB.
-Total: 3.594700 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.182100 ms MarkObjects: 2.986200 ms  DeleteObjects: 0.157500 ms)
+Unloading 23 unused Assets / (56.4 KB). Loaded Objects now: 3608.
+Memory consumption went from 110.5 MB to 110.4 MB.
+Total: 3.125200 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.602500 ms  DeleteObjects: 0.092600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,46 +165,229 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14959.198772 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/source
-  artifactKey: Guid(ebe8f6e3d6429504eb1f236354b42db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/source using Guid(ebe8f6e3d6429504eb1f236354b42db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bbbcc8b4462303a76c97835c41bd53') in 0.007797 seconds 
+  Time since last request: 486.057794 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Inventory.unity
+  artifactKey: Guid(1e18325558f45a24987ef2ad051160af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Inventory.unity using Guid(1e18325558f45a24987ef2ad051160af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f5f12d7c147d83e43806ac15c861ac') in 0.008679 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056559 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/source/Surgery Tools.fbx
-  artifactKey: Guid(0da5b04713b3cf849b84304fe971e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/source/Surgery Tools.fbx using Guid(0da5b04713b3cf849b84304fe971e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede95fdef2aefa95d2649279cfa2e604') in 0.190583 seconds 
+  Time since last request: 13.309073 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Inventory 1.unity
+  artifactKey: Guid(70355a075a10083478d4e50d124396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Inventory 1.unity using Guid(70355a075a10083478d4e50d124396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc6adac2ba7b67a370a35ed31609c7d') in 0.002740 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.994049 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Shelf.prefab
-  artifactKey: Guid(adb5bedec1d847f47a93e01ec9450b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Shelf.prefab using Guid(adb5bedec1d847f47a93e01ec9450b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9d4a6342a9173c49fcb83f955937a3') in 0.020526 seconds 
+  Time since last request: 4.443783 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes
+  artifactKey: Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes using Guid(6532d9b74af7e42dd9bfe5affd1bba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb29c064eac577a2f575f2348dd1d532') in 0.003046 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.331892 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Iron_BaseColor.jpeg
-  artifactKey: Guid(8682ef4779a9cff4082e866dc2a8be58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Iron_BaseColor.jpeg using Guid(8682ef4779a9cff4082e866dc2a8be58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a05b83a8c5fde76198cbdaa91a7485') in 0.027110 seconds 
+  Time since last request: 71.605903 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Lab.unity
+  artifactKey: Guid(70355a075a10083478d4e50d124396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Scenes/Lab.unity using Guid(70355a075a10083478d4e50d124396e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b3e01afbfae98eef126200f1b3e10') in 0.002838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.023618 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Iron_Metallic.jpeg
-  artifactKey: Guid(7e6a2428349778c4e80fd146f9bdb15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Iron_Metallic.jpeg using Guid(7e6a2428349778c4e80fd146f9bdb15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68a6e225d3b83590bdf718fae844c3e') in 0.011622 seconds 
+  Time since last request: 183.250737 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog
+  artifactKey: Guid(830a0d9eeb8ea4444abd6d06f5b53e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog using Guid(830a0d9eeb8ea4444abd6d06f5b53e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c567a5e206c1e72d8bb8067f62e15b') in 0.002117 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013001 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/internal_ground_ao_texture.jpeg
-  artifactKey: Guid(43a0c835ef060874bbaa508c697ddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/internal_ground_ao_texture.jpeg using Guid(43a0c835ef060874bbaa508c697ddead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fb3456eac19e9449154780b1fc6db7') in 0.028238 seconds 
+  Time since last request: 4.128856 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog/source
+  artifactKey: Guid(b49cc6bbd4898c34d9f28fd4d6fd4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog/source using Guid(b49cc6bbd4898c34d9f28fd4d6fd4fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298498b290558f53cad113af17a869f7') in 0.003291 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Steel_BaseColor.jpeg
-  artifactKey: Guid(da6679aa87e16eb4ea968d9b15826187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/surgery-tools-height-rez/textures/Hospital_Steel_BaseColor.jpeg using Guid(da6679aa87e16eb4ea968d9b15826187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905f15f6799bcc3cd65ee320af2c00e2') in 0.053653 seconds 
+  Time since last request: 0.072785 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog/source/frog.fbx
+  artifactKey: Guid(2be690c11930022419e2b585f92a2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Frog/source/frog.fbx using Guid(2be690c11930022419e2b585f92a2878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a243f73d55dbbe99ad904ea0794596') in 0.517541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.840222 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/frog 1/FusionResult_lowpoly.obj
+  artifactKey: Guid(f5760d08596e36240b252d79ac2e01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/frog 1/FusionResult_lowpoly.obj using Guid(f5760d08596e36240b252d79ac2e01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b130c5311a4c9d1d42fdeb9732eed5') in 0.159190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.177964 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/AnatomyFrog/FusionResult_lowpoly.obj
+  artifactKey: Guid(f5760d08596e36240b252d79ac2e01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/AnatomyFrog/FusionResult_lowpoly.obj using Guid(f5760d08596e36240b252d79ac2e01b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f46e19438b39ed129d7f68fa491da7') in 0.200482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.687896 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects
+  artifactKey: Guid(98943d622dd6d4e49a3a9c14b0c7c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects using Guid(98943d622dd6d4e49a3a9c14b0c7c98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac76e5f245788fc66964769cae93475') in 0.003629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.948416 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/PREFABS
+  artifactKey: Guid(ee9706903d773434db7a1c2adca59469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/PREFABS using Guid(ee9706903d773434db7a1c2adca59469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848a0cceb4d97e077b1a6c365edae894') in 0.004356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.599195 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Prefabs
+  artifactKey: Guid(ee9706903d773434db7a1c2adca59469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Prefabs using Guid(ee9706903d773434db7a1c2adca59469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ca638dbf25987a8a913e7936734efe') in 0.003590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 260.592128 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table
+  artifactKey: Guid(f31bc7c6877ce5f43950888ccd6cfea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table using Guid(f31bc7c6877ce5f43950888ccd6cfea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9ac306cc7965875570391198d2543c') in 0.003493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.503353 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source
+  artifactKey: Guid(aff3649c4d31b0f4ebcb46619589cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source using Guid(aff3649c4d31b0f4ebcb46619589cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aad52950cbd1c443e410929f818f710') in 0.002084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061371 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/labTableAgainstWall.fbx
+  artifactKey: Guid(234b0cd0d85fe9047a438b7595645f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/labTableAgainstWall.fbx using Guid(234b0cd0d85fe9047a438b7595645f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b9d5c5446f9ef82adbc4314ddf7957') in 0.016705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.757955 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/New Material.mat
+  artifactKey: Guid(f8a0b1bb99cdca843b6036ee6398d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/New Material.mat using Guid(f8a0b1bb99cdca843b6036ee6398d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a57a949ae5cc9f159a4bbb4227923f') in 0.015754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.215222 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/Table.mat
+  artifactKey: Guid(f8a0b1bb99cdca843b6036ee6398d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/Table/source/Table.mat using Guid(f8a0b1bb99cdca843b6036ee6398d3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f0b29bae85f149cb324b2a2cd0df1') in 0.030824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.544043 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png
+  artifactKey: Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png using Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de86a0dc189d6ccea26ed1c44c9923b') in 0.022170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164518 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png
+  artifactKey: Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png using Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0ae782e77c7f6f414f70f48fa22dab') in 0.042424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png using Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b87dfe8f79a3ee43e7f9d3a01171b64') in 0.007713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.734346 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures
+  artifactKey: Guid(e360c35f5834342bd8dbf7077a361cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Textures using Guid(e360c35f5834342bd8dbf7077a361cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6139447d1608c37b1fc3b45aa1d666ad') in 0.002799 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003693 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 3658.
+Memory consumption went from 114.8 MB to 114.7 MB.
+Total: 3.663400 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.214000 ms MarkObjects: 3.200400 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 544.552946 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_AO.png
+  artifactKey: Guid(b415219508a7c9f48914c3ec2f42ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_AO.png using Guid(b415219508a7c9f48914c3ec2f42ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6804fbccaa0f52d6cbea0e288d38d8b8') in 0.044403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031348 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_Normal.png
+  artifactKey: Guid(37b27ad1b1c53964aa9518fc124f10d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_Normal.png using Guid(37b27ad1b1c53964aa9518fc124f10d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f192b87fd66a9c952e24779feb342ae4') in 0.016280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_BaseColor.png
+  artifactKey: Guid(d721cb87586a6af41a65ebb2c4f2d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_BaseColor.png using Guid(d721cb87586a6af41a65ebb2c4f2d582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf0cf5f4ee9799353a3fd2207626d77') in 0.011061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_Height.png
+  artifactKey: Guid(6db2ac19e37012c40ab83e853f2ab6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_Height.png using Guid(6db2ac19e37012c40ab83e853f2ab6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326bd128026ab7d6745d4808a8a29aa3') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_BaseColor.png
+  artifactKey: Guid(1f919784bf63d6443a9ab7d7ab40fdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_frame_BaseColor.png using Guid(1f919784bf63d6443a9ab7d7ab40fdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a257feb0202b0cdb76b814689db0235') in 0.010258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_Roughness.png
+  artifactKey: Guid(322732e8b08ab0f438043ec61b338bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_Roughness.png using Guid(322732e8b08ab0f438043ec61b338bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69039a77321ef4973f4ea4d7cdbaec13') in 0.009625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_AO.png
+  artifactKey: Guid(45fd4cf719674f7499076937278cf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/3D_Objects/M_Table/T_table_2_tabletop_AO.png using Guid(45fd4cf719674f7499076937278cf3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9ce8f83ed0bf52a9b9eb0472c6f25b') in 0.009626 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
