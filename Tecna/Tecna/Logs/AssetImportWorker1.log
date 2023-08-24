@@ -15,7 +15,7 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49364
+59633
 Successfully changed project path to: C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/LENOVO/Documents/GitHub/Tech2023/Tecna/Tecna
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2820] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2738217615 [EditorId] 2738217615 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19252] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1477094209 [EditorId] 1477094209 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2820] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 2738217615 [EditorId] 2738217615 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19252] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 1477094209 [EditorId] 1477094209 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HASEHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 56.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,90 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004018 seconds.
+Registered in 0.005490 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.473 seconds
+- Completed reload, in  0.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (473ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (581ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004565 seconds.
+Registered in 0.004553 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\LENOVO\Documents\GitHub\Tech2023\Tecna\Tecna\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
+- Completed reload, in  0.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (769ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (268ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (180ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3145 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (56.4 KB). Loaded Objects now: 3609.
 Memory consumption went from 110.9 MB to 110.8 MB.
-Total: 3.300800 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.222000 ms MarkObjects: 2.739900 ms  DeleteObjects: 0.062500 ms)
+Total: 3.563700 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.217700 ms MarkObjects: 3.001000 ms  DeleteObjects: 0.090000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,70 +165,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8107.326741 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Floor.mat
-  artifactKey: Guid(8233f2d38ec148f46abc2f39635426e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Floor.mat using Guid(8233f2d38ec148f46abc2f39635426e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309c82c6490751a2fcf532c1c76adb70') in 0.270058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153.075526 seconds.
+  Time since last request: 11911.625217 seconds.
   path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Clocks.prefab
   artifactKey: Guid(295098087217734418f0535acb25ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Clocks.prefab using Guid(295098087217734418f0535acb25ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555880de8f9aef9e534dcb8cdad6f2de') in 0.229854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Stem.prefab
-  artifactKey: Guid(11f0b9f6dc959ab4ab19cee020b51229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Stem.prefab using Guid(11f0b9f6dc959ab4ab19cee020b51229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ff8304cd8562a5fecce73f4a00eb07') in 0.041294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Scissors.prefab
-  artifactKey: Guid(0e1d58efb5ab7d048851a053aa262367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Scissors.prefab using Guid(0e1d58efb5ab7d048851a053aa262367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82c4a49469184b2db828bd1ceb8bf23') in 0.039164 seconds 
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Clocks.prefab using Guid(295098087217734418f0535acb25ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555880de8f9aef9e534dcb8cdad6f2de') in 0.536526 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/TestTube_Stand.prefab
-  artifactKey: Guid(f74ff7e7f4fd933499ee68fc18eca81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/TestTube_Stand.prefab using Guid(f74ff7e7f4fd933499ee68fc18eca81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3955f5bcd6d42c845fa1886eaf40caa3') in 0.032092 seconds 
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/01_SrickyNote.prefab
+  artifactKey: Guid(93577796b4e712445a6b3cf947f2ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/01_SrickyNote.prefab using Guid(93577796b4e712445a6b3cf947f2ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ef34f68d8866608525928f4e69f748') in 0.011150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Flask.prefab
-  artifactKey: Guid(2bb923a19ff801240b277a3e92d0f924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Flask.prefab using Guid(2bb923a19ff801240b277a3e92d0f924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0bdc1d99728afe918c980e9502c1e7') in 0.079215 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Ammeter.prefab
+  artifactKey: Guid(b3424d78f03ba2845924e31403f86475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Ammeter.prefab using Guid(b3424d78f03ba2845924e31403f86475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a4d9996ad5768309d308761bd902f2') in 0.040719 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Skeleton.prefab
-  artifactKey: Guid(5f9a67d471e154846a097bbdd2db996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Skeleton.prefab using Guid(5f9a67d471e154846a097bbdd2db996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e172364e40802418a6a04ff855d58f') in 0.010513 seconds 
+  Time since last request: 1025.835203 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Environments/CubeRoom.prefab
+  artifactKey: Guid(c43602d5712fe4fd4bf33173bb6b8e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Environments/CubeRoom.prefab using Guid(c43602d5712fe4fd4bf33173bb6b8e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509f548d6df62595690fd0219d8dbcc0') in 0.062772 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Scalpel.prefab
-  artifactKey: Guid(aac202d9ccbf49a40af159ce469eb523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Scalpel.prefab using Guid(aac202d9ccbf49a40af159ce469eb523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813cec128cd0fa6e431c9eb2abf1c2e0') in 0.013217 seconds 
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Environments/CubeRoom_BakedDiffuse.png
+  artifactKey: Guid(755e0735b3a114799929024204091aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Environments/CubeRoom_BakedDiffuse.png using Guid(755e0735b3a114799929024204091aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c57074169e431756497aa29d793170') in 0.048021 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Table.prefab
-  artifactKey: Guid(370a276895bbac64ebc25e7293b142d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/Table.prefab using Guid(370a276895bbac64ebc25e7293b142d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab839adc1034b4d73fece4d2e4c5c92') in 0.009250 seconds 
+  Time since last request: 0.422196 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/2.jpg
+  artifactKey: Guid(4cc211c326dd04540b160479b0e5c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/2.jpg using Guid(4cc211c326dd04540b160479b0e5c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f464a0b71b046973bc1bb469d1c0b9ce') in 0.055598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/MetalTable.prefab
-  artifactKey: Guid(f629bccf184c1854ba1d281372c9e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/MetalTable.prefab using Guid(f629bccf184c1854ba1d281372c9e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df49d7741c1b92747eb8683aa9d2681') in 0.018952 seconds 
+  Time since last request: 0.004621 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg
+  artifactKey: Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/5.jpg using Guid(71af9aa276d70fa4093217e214fe7c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c005fd9fa5073180e309d12e5fca52a') in 0.041242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/TestTube.prefab
-  artifactKey: Guid(b4022c09da7dbd942bdec6c8d0c69d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Prefabs/TestTube.prefab using Guid(b4022c09da7dbd942bdec6c8d0c69d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d2fe790b0ea44398e117d0ab24fed') in 0.012119 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/6.jpg
+  artifactKey: Guid(703e1e6f05f946e4aad313878954e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/6.jpg using Guid(703e1e6f05f946e4aad313878954e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22ef66de799ba0649b3077570c6f4d9') in 0.044902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif
+  artifactKey: Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Images/7.gif using Guid(6c1c38ed1ea049c4cae63c276b3e44d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f554941ab12ab95a231416a47b58e52') in 0.023257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.328415 seconds.
+  path: Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Lab.mat
+  artifactKey: Guid(d0ab8927334c9e940b27b0c9fb597f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Samples/Google Cardboard XR Plugin for Unity/1.21.0/Hello Cardboard/Materials/Lab.mat using Guid(d0ab8927334c9e940b27b0c9fb597f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828c30f3596c34cf994eed4f6435c60d') in 0.034569 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
